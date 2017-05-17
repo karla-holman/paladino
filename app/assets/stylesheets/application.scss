@@ -19,8 +19,10 @@
 @import "font-awesome";
 
 body {
-  font-weight: 100;
-  letter-spacing: 1px;
+  font-weight: 300;
+  p {
+    line-height: 1.6;
+  }
 }
 
 div.upper-nav {
@@ -112,7 +114,7 @@ div.gray-background-right {
 }
 
 div.light-gray {
-  background-color: #F6F8F8;
+  background-color: #F0F4E4;
   margin: 0px;
   padding: 30px;
   // border: 1px solid #99C524;
