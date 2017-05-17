@@ -31,7 +31,8 @@ div.upper-nav {
 }
 
 div.image-left {
-  width: 74.6%;
+  width: 74.2%;
+  left: 5px;
   min-height: 500px;
   margin-left: 0;
   background-image: url('/assets/background.jpg');
@@ -41,10 +42,9 @@ div.image-left {
   position: absolute;
 }
 div.image-right {
-  width: 74.6%;
+  width: 74.2%;
   min-height: 500px;
-  margin-right: 0;
-  right: 0;
+  right: 5px;
   background-image: url('/assets/background.jpg');
   background-position: center;
   background-size: cover;
@@ -53,10 +53,21 @@ div.image-right {
 }
 
 div.color-right {
-  width: 24.9%;
+  width: 24.5%;
+  right: 5px;
   min-height: 500px;
-  margin-right: 0;
+  margin-right: 5px;
   background-color: #356986;
+  right: 0;
+  position: absolute;
+}
+
+div.color-left {
+  width: 24.5%;
+  left: 5px;
+  min-height: 500px;
+  margin-left: 0;
+  background-color: #99C524;
   right: 0;
   position: absolute;
 }
@@ -86,7 +97,7 @@ div.blog-text {
 
 div.box-text {
   border: 1px solid #7B848A;
-  padding: 30px;
+  padding: 40px;
   background-color: #fff;
   margin: 115px 0 0 0;
 }
@@ -114,12 +125,21 @@ div.gray-background-right {
 }
 
 div.light-gray {
-  background-color: #F0F4E4;
+  background-color: #E5E6E8;
+  margin: 0px;
+  padding: 40px;
+  text-align: left;
+  .btn {
+    margin-top: 50px;
+  }
+}
+
+div.color-box {
+  background-color: #356986;
   margin: 0px;
   padding: 30px;
-  // border: 1px solid #99C524;
-  border-left: 5px solid #99C524;
   text-align: left;
+  color: #fff;
   .btn {
     margin-top: 50px;
   }
@@ -164,10 +184,13 @@ div.image-square {
 
 p.large-square {
   padding: 100px 50px 0px 50px;
+  min-height: 287px;
+  background-color: #356986;
   font-size: 30px;
   text-transform: uppercase;
   font-family: "HelveticaNeue-CondensedBold";
   text-align: center;
+  color: #fff;
 }
 
 ul.categories {
