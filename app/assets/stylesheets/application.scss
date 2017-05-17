@@ -49,6 +49,16 @@ div.image-right {
   background-repeat: none;
   position: absolute;
 }
+
+div.color-right {
+  width: 24.9%;
+  min-height: 500px;
+  margin-right: 0;
+  background-color: #356986;
+  right: 0;
+  position: absolute;
+}
+
 div.entry-image {
   width: 30%;
   min-height: 300px;
@@ -66,14 +76,14 @@ div.blog-entry {
 }
 
 div.blog-text {
-  border: 1px solid #E5E6E8;
+  border: 1px solid #7B848A;
   padding: 30px;
   background-color: #fff;
   margin: 0;
 }
 
 div.box-text {
-  border: 1px solid #E5E6E8;
+  border: 1px solid #7B848A;
   padding: 30px;
   background-color: #fff;
   margin: 115px 0 0 0;
@@ -83,9 +93,10 @@ div.gray-background-left {
   margin-bottom: 10px;
   width: 49%;
   margin-right: 1%;
-  background-color: #E5E6E8;
+  background-color: #fff;
+  border-left: 5px solid #99C524;
   padding: 40px;
-  text-align: center;
+  text-align: left;
   float: left;
 }
 
@@ -93,9 +104,10 @@ div.gray-background-right {
   margin-bottom: 10px;
   width: 49%;
   margin-left: 1%;
-  background-color: #E5E6E8;
+  background-color: #fff;
+  border-left: 5px solid #99C524;
   padding: 40px;
-  text-align: center;
+  text-align: left;
   float: left;
 }
 
@@ -103,6 +115,11 @@ div.light-gray {
   background-color: #E5E6E8;
   margin: 0px;
   padding: 30px;
+  border-left: 5px solid #99C524;
+  text-align: left;
+  .btn {
+    margin-top: 50px;
+  }
 }
 
 a {
